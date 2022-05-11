@@ -1,6 +1,7 @@
 import { buffer } from 'micro';
 
 import stripe from '@/lib/server/stripe';
+import { updateSubscription } from '@/prisma/services/customer';
 
 const handler = async (req, res) => {
   const reqBuffer = await buffer(req);
