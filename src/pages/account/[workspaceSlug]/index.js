@@ -9,13 +9,15 @@ const Workspace = () => {
   return (
     workspace && (
       <AccountLayout>
-        <Meta title={`Nextacular - ${workspace.name} | Dashboard`} />
+        <Meta title={`taggami - ${workspace.name} | Dashboard`} />
         <Content.Title
           title={workspace.name}
           subtitle="This is your project's workspace"
         />
         <Content.Divider />
-        <Content.Container />
+        <Content.Container>
+          <div>Qui ci va il nostro progetto</div>
+          </Content.Container>
       </AccountLayout>
     )
   );

@@ -63,9 +63,9 @@ const Welcome = () => {
 
   return (
     <AccountLayout>
-      <Meta title="Nextacular - Dashboard" />
+      <Meta title="taggami - Dashboard" />
       <Content.Title
-        title="Nextacular Dashboard"
+        title="taggami Dashboard"
         subtitle="Start building SaaS platforms in a day"
       />
       <Content.Divider />
